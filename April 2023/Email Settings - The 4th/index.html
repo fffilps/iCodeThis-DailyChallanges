@@ -1,0 +1,97 @@
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="w-full h-screen bg-[#1D1E2E] flex justify-center items-center">
+    <div class="bg-[#242336] w-2/5 p-8 text-white flex flex-col justify-center items-center gap-4">
+
+        <section class="w-full">
+            <!-- Call to Action -->
+            <div class="pb-4">
+                <h2 class="text-white text-xl">Get email updates when:</h2>
+            </div>
+
+            <!-- Options (Checkboxes) -->
+            <div class="flex flex-col items-start">
+                <div>
+
+                    <input type="checkbox" id="owner">
+                    <label for="owner">You're the owner</label>
+                </div>
+
+                <div>
+
+                    <input type="checkbox">
+                    <label for="assignee">You're the assignee</label>
+                </div>
+
+                <div>
+
+                    <input type="checkbox">
+                    <label for="reporter">You're the reporter</label>
+                </div>
+
+                <div>
+
+                    <input type="checkbox">
+                    <label for="mentioned">Someone mentions you</label>
+                </div>
+
+                <div>
+                    <input type="checkbox">
+                    <label for="assigned">Someone is assigning you</label>
+                </div>
+
+            </div>
+
+        </section>
+
+        <section>
+            <!-- Notifaction -->
+            <div class="bg-[#1D1E2E] p-4">
+                <p class="text-gray-400 text-xs">You may also receive other email notifactions your admin configured <a
+                        class="text-[#4b4a95]" href="/">Learn more</a></p>
+            </div>
+
+
+        </section>
+
+
+
+        <section class="flex flex-col items-start w-full py-4">
+            <!-- Call of action -->
+            <div class="pb-4 ">
+                <h2 class="text-white text-xl">Email format</h2>
+            </div>
+
+            <!-- Options -->
+            <div class="flex flex-col w-full accent-[#6f6eeb] text-sm">
+                <div>
+
+                    <input type="radio">
+                    <label for="HTML">HTML</label>
+                </div>
+
+                <div>
+
+                    <input type="radio">
+                    <label for="Text">Text</label>
+                </div>
+            </div>
+        </section>
+
+        <section class="w-full">
+            <div class="w-full ">
+                <button class="bg-[#6f6eeb] w-full rounded-sm py-4">Save</button>
+            </div>
+        </section>
+    </div>
+
+</body>
+
+</html>
